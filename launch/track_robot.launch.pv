@@ -1,0 +1,24 @@
+<launch>
+    <node pkg="track_robot" type="track_robot" name="track_robot" respawn="true" output="log">
+        <param name="can_speed" value="500000"/>
+        <param name="print_can" value="0"/>
+        <param name="use_imu_odom" value="0"/>
+        <param name="sport_mode" value="PV"/>
+        <param name="motor_speed" value="0"/>
+        <param name="pv_a" value="0.2"/>
+        <param name="target_dis" value="10"/>
+        <param name="return_record" value="0"/>
+        <param name="limit_dis" value="1.750"/>
+        <param name="scan_title" value="20.5"/>
+        <param name="timer_cycle" value="10"/>
+        <param name="print_level" value="debug"/>
+        <param name="imu_size" value="2"/>
+        <param name="forward_diameter" value="143.568414"/>
+        <param name="back_diameter" value="143.513914"/>
+        <param name="first_filter_radius" value="0.1"/>
+        <param name="first_filter_num" value="30"/>
+        <param name="second_filter_radius" value="0.01"/>
+        <param name="second_filter_num" value="3"/>
+        <param name="adjust_limit" value="2.0"/>
+    </node>
+</launch>

@@ -1,0 +1,19 @@
+<launch>
+    <!-- <include file="$(find laser_node)/launch/laser_node.launch"/> -->
+
+    <!-- <include file="$(find asr_sick_lms_400)/launch/asr_sick_lms_400.launch"/> -->
+
+    <!-- <include file="$(find imu_node)/launch/imu_node.launch"/> -->
+
+    <include file="$(find imu_st)/launch/imu_node.launch"/>
+
+    <!-- <include file="$(find track_robot)/launch/track_robot.launch"/> -->
+
+    <!-- <include file="$(find control_manager)/launch/control_manager.launch"/> -->
+
+     <include file="$(find cmd_trans)/launch/cmd_trans.launch"/>
+
+    <include file="$(find image_trans)/launch/image_trans.launch"/>
+
+    <include file="$(find camera)/launch/camera.launch"/>
+</launch>
